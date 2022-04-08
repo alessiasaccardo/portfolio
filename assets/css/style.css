@@ -7,7 +7,7 @@ margin:0;
 
 @font-face{
     font-family: Bebas Neue;
-    src: url();
+    src: url(/portfolio/assets/BebasNeue-Regular.ttf);
 }
 *{text-decoration: none;}
 
