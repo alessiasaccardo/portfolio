@@ -3,16 +3,19 @@ height: 100%;
 padding: 0;
 margin:0;
 font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 
 *{text-decoration: none;}
 
-
+ 
 
 img {width:100%;}
 
-
+b{
+    font-weight: 400;
+}
 
 
 #drop{
@@ -43,6 +46,7 @@ header {height:13%;
 }  
 
 
+
 #row{
     width: 60%;
     height:100%;
@@ -52,21 +56,17 @@ header {height:13%;
     
 }
 .colonna1{
-    margin-left: 45px;
+    margin-left: 5%;
     width: 22%;
     display: flex;
 }
 .colonna2{
     width:50%;
-  
-    font-size: 3rem;
-    letter-spacing: 1%;
-    display: flex;
-    justify-content: center;
+    
     
 }
 .colonna1 img{
-    margin-top:18px; 
+    margin-top:5%; 
     width:100%;
    
 }
@@ -101,16 +101,16 @@ hr {
 
 nav ul{
     width: 100%;
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 5%;
+    margin-right: 4%;
     justify-content: flex-end;
     display:flex;
     list-style: none;
 }
 nav ul li{
     display:flex;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
    
 }
 
@@ -124,6 +124,8 @@ nav ul li a:hover {color: #5B7684;}
 
 .colorato a:visited{ color: #5B7684;}
 
+/*--------parte index--------*/
+
 
 #sezione1{
     width:100%;
@@ -136,78 +138,152 @@ nav ul li a:hover {color: #5B7684;}
 
 
 .imgcop{
-    width: 33%;
-    justify-content: flex-start;
-    margin-left:  80px; 
+    width: 32%;
+    margin-left: 7%;
+    margin-right: 9%;
     
 }
 .fraseinizio{
-    width: 47%;
-    justify-content: flex-end;
-    margin-left:  9%; 
+    width: 45%;
+    margin-right: 3%; 
     
 }
+
+#sezione2i{
+    width:100%;
+    height:100%;
+    background-color: #EDEDED;
+    
+}
+
+/*----------------------------------------*/
 
 #Floatingbottom{
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 1px;
-    color:#BDDBD8;
-    background-color: white;
+    background-color: #BDDBD8;
     font-size: 0.8rem;
-    height: 30px;
-    width: 120px;
+    width: 2%;
+    padding: 0.3%;
     position:fixed;
-    right:20px;
-    bottom: 20px;
+    right:1%;
+    bottom: 2%;
     z-index: 10;
-    list-style: none;     
+    list-style: none;
+  
 }
+
+#Floatingbottom img{
+    }
 
 #Floatingbottom a:link {color: #BDDBD8;}
 #Floatingbottom a:visited {color: #BDDBD8;}
 
-.testiinizio{
+
+/*----------------parte per Portfolio---------------- */
+
+.testoinizio{
+    
+    font-weight: 350;
+    margin-left: 11%;
+    font-size: 2rem;
+}
+
+.fotoinizio{
+    width: 32%;
+    margin-left: 9%;
+   
+}
+
+.fotoinizio img{
+   border-radius:1.5%;
+}
+
+#sezioneintroport{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #BDDBD8;
+    position: relative;
+    
+}
+
+.titolointro{
+    width:100%;
     position: absolute;
-    display:block;
-    right: 1%;
-    top:54%;
+    top: 5%;
+    z-index: 10;
+}
+#contenitoresotto{
+    width:62%;
+    height:50%;
+    margin-right: 10%;
+    
+    
+    
+}
+
+.titololato{
     width: 33%;
-    color: black;
-    font-size: 1rem; 
-}
-.testobenvenuto{
-    width: 75%;
-}
-.benvenuto{
-    font-size:1.3vw;
-    line-height:2rem;
-    letter-spacing: 1.4px;
-    width:100%x; 
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-bottom: 3%;
 }
 
+.testolato{
+    margin-left: 15%;
+    font-weight: 350;
+    font-size: 1.5rem;
+}
 
+.imgintro{
+    width:38%;
+    margin-top: 5%;
+    
+    
+  
+    
+}
+.titololato{
 
-#sezione2{
+    
+}
+
+#sezioneport{
     width:100%;
     height: 100%;
     display: flex;
     background-color: #EDEDED;
+    
 }
 
+.titoloport{
+    width:45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}    
+.fototitoloport{
+    width: 40%;
     
+}
+
+
+
 
 /*Flip card 1*/
   
 
-.thecard img{
-    border-radius: 20px;
-}
+
       .maincontainer{
-          font-weight: 500;
-          width: 100%;
-          margin: 30px 2% 30px 2%;
+          font-weight: 300;
+          font-size:1.5rem;
+          width:55%;
+          margin: 3% 3% 3% 3%;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
@@ -216,12 +292,12 @@ nav ul li a:hover {color: #5B7684;}
         
         .thecard{
           position:relative;
-          margin: 5px 10px 5px 10px;
-          width: 220px;
-          height: 300px;
+          margin: 1% 3% 1% 3%;
+          width: calc(30% - 6%);
+          height: calc(32% - 2%);
           transform-style: preserve-3d;
           transition: all 0.5s ease;
-            border-radius: 20px;
+          
         }
         
          .thecard:hover{
@@ -234,8 +310,8 @@ nav ul li a:hover {color: #5B7684;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-             text-align: center;
-             border-radius: 20px;
+        
+            
         }
     
           .theback1{
@@ -246,12 +322,15 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+           
         }
 .theback1 a:link {color: black;}
 .theback1 a:visited {color: black;}
-.theback1 a:hover {color: rosybrown;}
+.theback1 a:hover {color: #5B7684;
+    text-decoration: underline;}
 
 
          
@@ -261,10 +340,8 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
+        
+      
           
         }
     
@@ -276,13 +353,15 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+            display:flex;
+          align-items: center;
+          justify-content: center;
              
         }
 .theback2 a:link {color: black;}
 .theback2 a:visited {color: black;}
-.theback2 a:hover {color: rosybrown;}
+.theback2 a:hover {color: #5B7684;
+text-decoration: underline;}
 
 
     
@@ -291,10 +370,9 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-          text-align: center;
-          border-radius: 20px;
+       
+          
+
         }
     
           .theback3{
@@ -302,16 +380,18 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #fafafa;
+              background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-          text-align: center;
-          border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+     
         }
 
 .theback3 a:link {color: black;}
 .theback3 a:visited {color: black;}
-.theback3 a:hover {color: rosybrown;}
+.theback3 a:hover {color: #5B7684;text-decoration: underline;}
 
           
           .thefront4{
@@ -319,10 +399,8 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
+          
+        
         }
     
           .theback4{
@@ -330,15 +408,17 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #fafafa;
+              background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+          
         }
 .theback4 a:link {color: black;}
 .theback4 a:visited {color: black;}
-.theback4 a:hover {color: rosybrown;}
+.theback4 a:hover {color: #5B7684;text-decoration: underline;}
 
 
 
@@ -349,26 +429,26 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
+          
+            
         }
     
           .theback5{
           position:absolute;
           width: 100%;
-         height: 100%;
+          height: 100%;
           backface-visibility: hidden;
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;;
+         
         }
 .theback5 a:link {color: black;}
 .theback5 a:visited {color: black;}
-.theback5 a:hover {color: rosybrown;}
+.theback5 a:hover {color: #5B7684;text-decoration: underline;}
 
 
          .thefront6{
@@ -376,11 +456,8 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
          height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
-          
+       
+            
         }
     
           .theback6{
@@ -391,13 +468,15 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+            
              
         }
 .theback6 a:link {color: black;}
 .theback6 a:visited {color: black;}
-.theback6 a:hover {color: rosybrown;}
+.theback6 a:hover {color: #5B7684;text-decoration: underline;}
 
 
           .thefront7{
@@ -405,10 +484,7 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
          height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-          text-align: center;
-          border-radius: 20px;
+     
         }
     
           .theback7{
@@ -419,13 +495,15 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-          text-align: center;
-          border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+       
         }
 
 .theback7 a:link {color: black;}
 .theback7 a:visited {color: black;}
-.theback7 a:hover {color: rosybrown;}
+.theback7 a:hover {color: #5B7684;text-decoration: underline;}
 
          
           .thefront8{
@@ -433,10 +511,8 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
+    
+            
         }
     
           .theback8{
@@ -447,12 +523,14 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+            
         }
 .theback8 a:link {color: black;}
 .theback8 a:visited {color: black;}
-.theback8 a:hover {color: rosybrown;}
+.theback8 a:hover {color: #5B7684;text-decoration: underline;}
 
 
     
@@ -461,10 +539,8 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
              height: 100%;
           backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
+     
+             
         }
     
           .theback9{
@@ -475,98 +551,17 @@ nav ul li a:hover {color: #5B7684;}
           background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
+           display:flex;
+          align-items: center;
+          justify-content: center;
+        
         }
 .theback9 a:link {color: black;}
 .theback9 a:visited {color: black;}
-.theback9 a:hover {color: rosybrown;}
+.theback9 a:hover {color: #5B7684;text-decoration: underline;}
 
 
-         .thefront10{
-          position: absolute;
-          width: 100%;
-             height: 100%;
-          backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
-          
-        }
-    
-          .theback10{
-         position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          background: #fafafa;
-          color: #333;
-          transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
-             
-        }
-.theback10 a:link {color: black;}
-.theback10 a:visited {color: black;}
-.theback10 a:hover {color: rosybrown;}
-
-
-         
-          .thefront11{
-          position: absolute;
-          width: 100%;
-              height: 100%;
-          backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-          text-align: center;
-          border-radius: 20px;
-        }
-    
-          .theback11{
-          position: absolute;
-          width: 100%;
-              height: 100%;
-          backface-visibility: hidden;
-          background: #fafafa;
-          color: #333;
-          transform: rotateY(180deg);
-          text-align: center;
-          border-radius: 20px;
-        }
-
-.theback11 a:link {color: black;}
-.theback11 a:visited {color: black;}
-.theback11 a:hover {color: rosybrown;}
-
-         
-          .thefront12{
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          background: #E6E4DB;
-          color: #333;
-             text-align: center;
-             border-radius: 20px;
-        }
-    
-          .theback12{
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          backface-visibility: hidden;
-          background: #fafafa;
-          color: #333;
-          transform: rotateY(180deg);
-             text-align: center;
-             border-radius: 20px;
-        }
-.theback12 a:link {color: black;}
-.theback12 a:visited {color: black;}
-.theback12 a:hover {color: rosybrown;}
-
+        
 
 
 
@@ -582,66 +577,65 @@ nav ul li a:hover {color: #5B7684;}
 
 
 footer{
-    background-color: rgba(255,249,240,1);
-    height:35%;
+    height:15%;
     width:100%;
     display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #5B7684;
+    background-color: #BDDBD8;
+    font-size: 1.5rem;
+
+}
+
+
+.titolofooter{
+    height: 100%;
+    width:20%;
+    display:flex;
     justify-content: center;
-    position
-
- 
-}
-.Contatti{
-    font-size: 1.2rem;
-    width:calc(33.3%-100px);
-    margin: 60px 0 0 100px;
-    text-align: center;}
-
-.titolifooter{
-    font-size: 2rem;
-    margin-bottom: 5%;
+    align-items: center;
 }
 
-.Seguici{
-    font-size: 1.2rem;
-    width:calc(30%-0px);
-    margin: 60px 0 0 0;
-    text-align: center;}
 
 #fotosocial{
-    width:100%;
+    width:20%;
+    margin-right:5%;
+    height:100%;
     display:flex;
     align-items: center;
     justify-content: center;}
 
-.loghif{ width:8%;
-    margin: 0 30px 0 30px;
+.loghif{ width:13%;
+    margin: 0 4% 0 4%;
     cursor:pointer;}
 
-.Pagamentisicuri{
-    font-size: 1.2rem;
-    width:calc(33.3%-75px);
-    margin: 60px 75px 0 0;
-    text-align: center;}
 
-.fotopagamenti{margin-top:25px;}
 
-.fotopagamenti img {
-    width:70%;
-    height: 80%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) { 
+    html{font-size: 10px;
+    }
 }
 
 
-
-.email a:link { color: black;  }
-.email a:visited{ color: black;   }
-.email a:hover {color: rosybrown;  }
-
-
-
-
-
-
+@media screen and (min-width:2399px) { 
+    html{font-size: 28px;
+    }
+}
 
 
 
