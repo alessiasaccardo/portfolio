@@ -18,21 +18,6 @@ b{
 }
 
 
-#drop{
-    width:15px;
-    position: absolute;
-    right: 5%;
-    top: 2.5%;
-    display:none;
-}
-
-#drop p{
-    height:1.8px;
-    background-color: black;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
 
 
 header {height:13%;
@@ -69,12 +54,6 @@ header {height:13%;
     margin-top:5%; 
     width:100%;
    
-}
-#loghi{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: calc (30%-5%);
-    cursor: pointer;
 }
 
 nav{ 
@@ -914,15 +893,16 @@ text-decoration: underline;}
     align-items: center;
     justify-content: center;
     width:calc(100%-4%);
-    padding-top: 5%;
+   
     margin-left: 2%;
     margin-right: 2%;
-    height: 60%;
+    height: 78%;
    
     
 }
-#contenitoresez3c img{
-    width: 21%;
+#contenitoresez3c iframe{
+    width: 80%;
+    height: 100%;
 }
 
 
@@ -1196,11 +1176,49 @@ footer{
 
 
 
+@media only screen and (max-width: 667px){
+ html{font-size: 4px;}
+    header{height:5%}
+    
+    hr {
+    height: 1px;
+    width: 80%;
+    margin-top: 8%;}
+    .colonna2{
+    width:10%;}
+    nav ul{
+    font-size: 2.2rem; 
+    margin-top: 7%;
+    margin-right: 7%;}
+    nav ul li{
+    margin-left: 5%;
+    margin-right: 5%;}
+    
+    footer{height:5%;}
+    
+    #sezione1{height: 20%}
+    #sezione2i{height: 25%}
+    #sezione3i{height: 25%}
+    #sezione4i{height: 25%}
+    #sezioneintroport{height: 25%}
+    #sezioneport{height: 25%}
+    #port{height:25%;}
+    #sezione1c{height: 25%}
+    #sezione2c{height: 25%}
+    #sezione3c{height: 25%}
+    #sezione4c{height: 25%}
+    #sezione1progetti{height: 25%}
+    #sezione2progetti{height: 25%}
+    #sezione3progetti{height: 25%}
+    #sezionepiacerti{height: 25%}
+    #sezione6progetti{height: 25%}
+    
+}
 
 
-
-@media screen and (max-width:1024px) { 
-    html{font-size: 10px;
+@media screen and (max-width:1024px) and (orientation:landscape){ 
+    html{font-size: 10px;}
+   
     }
 }
 
