@@ -118,16 +118,34 @@ nav ul li a:hover {color: #5B7684;}
 
 .imgcop{
     width: 32%;
+    height: 100%;
     margin-left: 7%;
-    margin-right: 9%;
-    
+    margin-right: 9%; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
-.fraseinizio{
-    width: 45%;
-    margin-right: 3%; 
+
+.imgcop img{
+    width: auto;
+    height: 88%;
     
 }
 
+.fraseinizio{
+    width: 45%;
+    height: 100%;
+    margin-right: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fraseinizio img{
+    width: auto;
+    height: 88%;
+    
+}
 
 
 #sezione2i{
@@ -376,12 +394,18 @@ nav ul li a:hover {color: #5B7684;}
 
 .fotoinizio{
     width: 32%;
+    height:100%;
     margin-left: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .fotoinizio img{
    border-radius:1.5%;
+    width: auto;
+    height: 80%;
 }
 
 #sezioneintroport{
@@ -500,14 +524,22 @@ nav ul li a:hover {color: #5B7684;}
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
-          background: #fafafa;
           color: #333;
           transform: rotateY(180deg);
+           
+        }
+
+          .testoback{
+          position:absolute;
+          top: 40%;
+          width: 100%;
+          z-index: 10;
+          color: #333;
           display:flex;
           align-items: center;
           justify-content: center;
-           
-        }
+    }
+
 .theback1 a:link {color: black;}
 .theback1 a:visited {color: black;}
 .theback1 a:hover {color: #5B7684;
@@ -1000,12 +1032,11 @@ text-decoration: underline;}
     width:100%;
     height:100%;
     background-color: white;
-    position: relative;
   
 }
 .contenitorepresprogetto{
     width: 100%;
-    height:26.9%;
+    height:27%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1020,12 +1051,20 @@ text-decoration: underline;}
 
 .imgpresprogetto{
     width: 100%;
- 
-  
+    height:73%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f6;
+}
+
+.imgpresprogetto img{
+    height:100%;
+    width: auto;
 }
 
 #sezione3progetti{
-    width:100%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -1034,7 +1073,8 @@ text-decoration: underline;}
 
 }
 #sezione3progetti img{
-    width: 78%;
+    width: auto;
+    height: 85%;
 }
 
 #sezionepiacerti{
@@ -1120,9 +1160,9 @@ text-decoration: underline;}
 
 }
 #sezione6progetti img{
-    width: 70%;
+    width: auto;
+    height: 85%;
 }
-
 
 
 
@@ -1176,7 +1216,7 @@ footer{
 
 
 
-@media only screen and (max-width: 667px){
+@media only screen and (max-width: 760px){
  html{font-size: 4px;}
     header{height:5%}
     
