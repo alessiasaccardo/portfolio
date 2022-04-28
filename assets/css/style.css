@@ -559,15 +559,12 @@ nav ul li a:hover {color: #5B7684;}
         }
     
           .theback2{
-         position: absolute;
+          position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-            display:flex;
-          align-items: center;
-          justify-content: center;
              
         }
 .theback2 a:link {color: black;}
@@ -588,15 +585,12 @@ text-decoration: underline;}
         }
     
           .theback3{
-          position: absolute;
+           position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
      
         }
 
@@ -615,15 +609,12 @@ text-decoration: underline;}
         }
     
           .theback4{
-          position: absolute;
+           position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
           
         }
 .theback4 a:link {color: black;}
@@ -644,15 +635,12 @@ text-decoration: underline;}
         }
     
           .theback5{
-          position:absolute;
+           position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;;
          
         }
 .theback5 a:link {color: black;}
@@ -670,15 +658,12 @@ text-decoration: underline;}
         }
     
           .theback6{
-         position: absolute;
+          position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
             
              
         }
@@ -696,15 +681,12 @@ text-decoration: underline;}
         }
     
           .theback7{
-          position: absolute;
+          position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
        
         }
 
@@ -723,15 +705,12 @@ text-decoration: underline;}
         }
     
           .theback8{
-          position: absolute;
+          position:absolute;
           width: 100%;
           height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
             
         }
 .theback8 a:link {color: black;}
@@ -752,13 +731,10 @@ text-decoration: underline;}
           .theback9{
           position:absolute;
           width: 100%;
-              height: 100%;
+          height: 100%;
           backface-visibility: hidden;
           color: #333;
           transform: rotateY(180deg);
-           display:flex;
-          align-items: center;
-          justify-content: center;
         
         }
 .theback9 a:link {color: black;}
