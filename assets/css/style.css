@@ -500,13 +500,27 @@ nav ul li a:hover {color: #5B7684;}
           margin: 1% 3% 1% 3%;
           width: calc(30% - 6%);
           height: calc(32% - 2%);
-          transform-style: preserve-3d;
-          transition: all 0.5s ease;
+          -ms-transform-style: preserve-3d;
+          -webkit-transform-style: preserve-3d;
+          -moz-transform-style: preserve-3d;
+          -o-transform-style: preserve-3d;
+          transition: all 0.8s ease;
           
         }
+
+
+a.thecard{
+    display:block;
+    cursor:pointer;
+    
+    
+}
         
          .thecard:hover{
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
         }
     
          .thefront1{
@@ -525,7 +539,10 @@ nav ul li a:hover {color: #5B7684;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
            
         }
 
@@ -564,7 +581,10 @@ nav ul li a:hover {color: #5B7684;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
              
         }
 .theback2 a:link {color: black;}
@@ -590,7 +610,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
      
         }
 
@@ -614,7 +637,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
           
         }
 .theback4 a:link {color: black;}
@@ -640,7 +666,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
          
         }
 .theback5 a:link {color: black;}
@@ -663,7 +692,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
             
              
         }
@@ -686,7 +718,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
        
         }
 
@@ -710,7 +745,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
             
         }
 .theback8 a:link {color: black;}
@@ -722,7 +760,7 @@ text-decoration: underline;}
          .thefront9{
           position:absolute;
           width: 100%;
-             height: 100%;
+          height: 100%;
           backface-visibility: hidden;
      
              
@@ -734,7 +772,10 @@ text-decoration: underline;}
           height: 100%;
           backface-visibility: hidden;
           color: #333;
-          transform: rotateY(180deg);
+          -ms-transform: rotateY(180deg);
+          -webkit-transform: rotateY(180deg);
+          -moz-transform: rotateY(180deg);
+          -o-transform: rotateY(180deg);
         
         }
 .theback9 a:link {color: black;}
